@@ -3,6 +3,7 @@ Tienda Pokemon
 Es una tienda que cuenta con el catalogo de los pokemon en donde en cada tarjeta se encuentra el nombre, categoria y precio, así mismo se puede realizar la debida compra pero si o si debes estar logueado para hacerla, también puedes lograr ver la página del carrito de compras donde puedes eliminar productos si así lo deseas.
 
 FRONTEND
+
 Tecnologías utilizadas:
 Frontend: React (Vite), Typescropt, React Router DOM.
 Persistencia: LocalStorage
@@ -57,6 +58,7 @@ Carga paralela: Se utilizó promise.all para obtener los detalles de cada pokém
 Aunque la API no provee inventario, se estableció un Stock Base Inmutable de 10 unidades por producto. La lógica de negocio del frontend calcula la disponibilidad en tiempo real restando la cantidad de ítems en el carrito de este stock base, asegurando que la interfaz refleje siempre la realidad de la bodega.
 
 BACKEND
+
 Tecnologías utilizadas:
 NestJS, Typescript 
 
