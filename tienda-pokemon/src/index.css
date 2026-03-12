@@ -1,0 +1,18 @@
+:root {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}

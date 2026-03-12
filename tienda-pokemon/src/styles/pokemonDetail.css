@@ -1,0 +1,135 @@
+.pokemon-detail {
+    padding-top: 40px;
+}
+
+.pokemon-detail-login {
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: #ef3e33;
+}
+
+.pokemon-detail-button {
+    background-color: #ef3e33;
+    align-items: center;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    color: #1e191a;
+    text-decoration: none;
+}
+
+.pokemon-detail-button:hover {
+    border: 2px solid #1e191a;
+    color: #ffffff;
+}
+
+.pokemon-detail-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-detail-info {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-detail-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-detail-image {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.pokemon-detail-category {
+    font-size: 20px;
+    font-style: oblique;
+    margin: 0;
+    color:#1e191a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pokemon-detail-category::first-letter {
+    text-transform: uppercase;
+}
+
+.pokemon-detail-data {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pokemon-detail-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Courier New", monospace;
+    color:#1e191a;
+    text-decoration: none;
+}
+
+.pokemon-detail-name::first-letter {
+    text-transform: uppercase;
+}
+
+.pokemon-detail-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ef3e33;
+    margin: 0;
+}
+
+.pokemon-detail-subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e191a;
+}
+
+.pokemon-detail-description {
+    font-size: 16px;
+    color: #1e191a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: unset;
+}
+
+.pokemon-detail-stock {
+    font-size: 18px;
+    color: #1e191a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: unset;
+}
+
+.pokemon-detail-disable {
+    font-size: 18px;
+    color: #ef3e33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: unset;
+}
+
+.pokemon-detail-NoButton {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: #1e191a;
+    text-decoration: none;
+}

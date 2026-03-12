@@ -1,0 +1,106 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 2px solid #57575a;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    box-shadow: 8px 4px 4px #ef3e33;
+    color: #1e191a;
+}
+
+.card:hover {
+    background-color: #57575a;
+}
+
+.card:hover a {
+    color: #ffffff;
+}
+
+.card-image-contain {
+    width: 80px;
+    height: 80px;
+}
+
+.card-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Courier New", monospace;
+    color:#1e191a;
+    text-decoration: none;
+}
+
+.card-title::first-letter {
+    text-transform: uppercase;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-details-category {
+    font-size: 18px;
+    font-style: oblique;
+    margin: 0;
+}
+
+.card-details-category::first-letter {
+    text-transform: uppercase;
+}
+
+.card-details-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ef3e33;
+    margin: 0;
+}
+
+.card-button {
+    width: 170px;
+    height: 40px;
+    background-color: #ef3e33;
+    border: 2px solid #1e191a;
+    align-items: center;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    border: 2px solid #ffffff;
+    color: #1e191a;
+}
+
+/* Responsive Ipad */
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 250px;
+    }
+}
+
+/* Responsive Phone*/
+@media screen and (max-width: 480px) {
+    .card {
+        max-width: 220px;
+    }
+}

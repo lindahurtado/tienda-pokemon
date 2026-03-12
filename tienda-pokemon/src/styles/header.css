@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ef3e33;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 6px 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Courier New", monospace;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-container-cart {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.header-user {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Courier New", monospace;
+}
+
+.header-button-totalItems {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+.header-button-logout {
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: Georgia, serif;
+}
+
+.header-buttons-register, .header-buttons-login, .header-button-logout {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #1e191a;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.header-buttons-register {
+    width: 110px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.header-buttons-login {
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+}
+
+.header-buttons-register:hover, .header-buttons-login:hover, .header-button-logout:hover {
+    background-color: #57575a;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    font-size: 24px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.header-button-cart:hover, .material-symbols-outlined:hover {
+    font-variation-settings: 'FILL' 1;
+    color: #1e191a;
+}
+
+/* Responsive Ipad */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 100px;
+        border-radius: 0;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .header-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header-title {
+        font-size: 26px;
+    }
+    
+    .header-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header-buttons-register {
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .header-buttons-login {
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive Phone*/
+@media screen and (max-width: 480px) {
+    .header {
+        border-radius: 0;
+        height: 90px;
+    }
+
+    .header-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-title {
+        font-size: 18px;
+    }
+    
+    .header-buttons {
+        flex-direction: column;
+    }
+
+    .header-buttons-register {
+        width: 90px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .header-buttons-login {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .material-symbols-outlined {
+        font-size: 20px;
+    }
+}

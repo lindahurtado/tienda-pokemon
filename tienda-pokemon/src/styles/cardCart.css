@@ -1,0 +1,109 @@
+.card-cart {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid #1e191a;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.card-cart-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.card-cart-data, .card-cart-container {
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-cart-name {
+    font-size: 22px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+.card-cart-bquantity {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cart-less, .card-cart-more {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #1e191a;
+    background-color: #ef3e33;
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card-cart-less:hover, .card-cart-more:hover {
+    color: #ffffff;
+    border: 2px solid #1e191a;
+}
+
+.card-cart-price, .card-cart-quantity, .card-cart-total {
+    font-size: 18px;
+    font-family: Georgia, serif;
+    font-weight: 300;
+}
+
+.card-cart-button {
+    width: 100px;
+    height: 40px;
+    background-color: #ef3e33;
+    align-items: center;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    color: #1e191a;
+}
+
+.card-cart-button:hover {
+    border: 2px solid #1e191a;
+    color: #ffffff;
+}
+
+/* Responsive Phone*/
+@media screen and (max-width: 480px) {
+    .card-cart {
+        width: 250px;
+        height: 200px;
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .card-cart-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-cart-name {
+        font-size: 16px;
+    }
+
+    .card-cart-price, .card-cart-quantity, .card-cart-total {
+        font-size: 14px;
+    }
+
+    .card-cart-button {
+        width: 80px;
+        font-size: 14px;
+    }
+}

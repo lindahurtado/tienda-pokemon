@@ -1,0 +1,35 @@
+.home-contains {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.home-contains-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.spinner-container {
+    min-width: 1280px;
+}
+
+.home-login {
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: #ef3e33;
+}
+
+/* Responsive Ipad */
+@media screen and (max-width: 1020px) {
+    .home-contains-cards {
+        gap:8px;
+    }
+}
